@@ -2,6 +2,19 @@ header{
     display: inline-block;
     width: 100%;
 }
+
+nav{
+    margin-right: 5%; margin-top: 10px; float: right;
+}
+
+button{
+    background-color: white;
+    border-style: none;
+    float: left;
+    font-size: 30px;
+    line-height: 1em;
+    padding: 0px 5px;
+}
 main{
     display: inline-block;
     width: 100%;
