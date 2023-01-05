@@ -1,25 +1,38 @@
-header{
+body,
+body * {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.container{
     display: inline-block;
     width: 100%;
 }
 
-nav{
-    margin-right: 5%;
-    margin-top: 10px;
-    float: right;
+.logo{
+    float: left;
+    margin-left: 5%;
+    background-color: blanchedalmond;
+    height: 50px;
 }
 
-button{
+.logo > img{
+    height: 50px;
+}
+
+.drop-down{
+    margin-right: 5%;
+    margin-top: 10px;
     background-color: white;
     border-style: none;
-    float: left;
+    float: right;
     font-size: 30px;
     line-height: 1em;
     padding: 0px 5px;
 }
+
 main{
-    display: inline-block;
-    width: 100%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1{
